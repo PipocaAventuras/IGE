@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-1,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "Bambawezome Idle"
+		},
+		{
+			"offsets": [
+				132,
+				-20
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Bambawezome Left"
+		},
+		{
+			"offsets": [
+				21,
+				30
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Bambawezome Down"
+		},
+		{
+			"offsets": [
+				45,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Bambawezome Up"
+		},
+		{
+			"offsets": [
+				-89,
+				-13
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Bambawezome Right"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/bambawezome",
+	"position": [
+		-220,
+		80
+	],
+	"healthicon": "bambawezome",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		203,
+		0
+	],
+	"camera_position": [
+		-30,
+		-190
+	],
+	"sing_duration": 6.1,
+	"scale": 1.4
+}

@@ -1,0 +1,25 @@
+{
+	"songs": [
+		["Awesomed Up", "bambawezome", [255, 203, 0]],
+		["Hide", "bamepic360", [138, 255, 125]],
+		["Sprinkletastic", "cakemonsta", [255, 255, 255]],
+		["Mama Weegee", "weegee", [76, 126, 102]],
+		["Unexpected", "davethekiller", [255, 255, 255]],
+		["MLG", "iluminatisarecool123", [253, 73, 4]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "",
+	"weekBefore": "tutorial",
+	"weekName": "Tutorial",
+	"startUnlocked": true,
+        "difficulties": "Normal",
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

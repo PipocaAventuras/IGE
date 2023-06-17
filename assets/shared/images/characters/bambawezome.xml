@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Bambawezome.png">
+<SubTexture name="Bambawezome Idle0000" x="347" y="1109" width="357" height="465" frameX="-140" frameY="-164" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Idle0001" x="704" y="1109" width="389" height="465" frameX="-124" frameY="-145" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Idle0002" x="1155" y="504" width="427" height="503" frameX="-110" frameY="-99" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Idle0003" x="1155" y="0" width="431" height="504" frameX="-109" frameY="-94" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Idle0004" x="1155" y="0" width="431" height="504" frameX="-109" frameY="-94" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Idle0005" x="1155" y="0" width="431" height="504" frameX="-109" frameY="-94" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Idle0006" x="1155" y="0" width="431" height="504" frameX="-109" frameY="-94" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Up Pose0000" x="0" y="0" width="395" height="577" frameX="-153" frameY="-12" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Up Pose0001" x="395" y="0" width="382" height="560" frameX="-153" frameY="-39" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Up Pose0002" x="777" y="0" width="378" height="552" frameX="-153" frameY="-46" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Up Pose0003" x="777" y="0" width="378" height="552" frameX="-153" frameY="-46" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Up Pose0004" x="777" y="0" width="378" height="552" frameX="-153" frameY="-46" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Right Pose0000" x="0" y="577" width="391" height="532" frameX="-245" frameY="-69" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Right Pose0001" x="391" y="577" width="382" height="505" frameX="-224" frameY="-84" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Right Pose0002" x="773" y="577" width="382" height="500" frameX="-213" frameY="-89" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Right Pose0003" x="773" y="577" width="382" height="500" frameX="-213" frameY="-89" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Right Pose0004" x="773" y="577" width="382" height="500" frameX="-213" frameY="-89" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Down Pose0000" x="1498" y="1109" width="371" height="352" frameX="-151" frameY="-318" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Down Pose0001" x="0" y="1580" width="381" height="339" frameX="-142" frameY="-305" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Down Pose0002" x="1093" y="1109" width="405" height="363" frameX="-118" frameY="-276" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Down Pose0003" x="1093" y="1109" width="405" height="363" frameX="-118" frameY="-276" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Down Pose0004" x="1093" y="1109" width="405" height="363" frameX="-118" frameY="-276" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Left Pose0000" x="1586" y="0" width="386" height="489" frameX="-6" frameY="-101" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Left Pose0001" x="1586" y="489" width="340" height="476" frameX="-54" frameY="-114" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Left Pose0002" x="0" y="1109" width="347" height="471" frameX="-61" frameY="-113" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Left Pose0003" x="0" y="1109" width="347" height="471" frameX="-61" frameY="-113" frameWidth="643" frameHeight="672" />
+<SubTexture name="Bambawezome Left Pose0004" x="0" y="1109" width="347" height="471" frameX="-61" frameY="-113" frameWidth="643" frameHeight="672" />
+</TextureAtlas>

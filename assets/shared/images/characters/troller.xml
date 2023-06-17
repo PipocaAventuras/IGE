@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="dildo.png">
+<SubTexture name="dildo idle0000" x="475" y="1017" width="404" height="395" frameX="-398" frameY="-300" frameWidth="1280" frameHeight="720" />
+<SubTexture name="dildo idle0001" x="1423" y="422" width="370" height="405" frameX="-415" frameY="-295" frameWidth="1280" frameHeight="720" />
+<SubTexture name="dildo idle0002" x="1095" y="0" width="328" height="453" frameX="-440" frameY="-243" frameWidth="1280" frameHeight="720" />
+<SubTexture name="dildo idle0003" x="747" y="0" width="348" height="464" frameX="-431" frameY="-232" frameWidth="1280" frameHeight="720" />
+<SubTexture name="dildo idle0004" x="747" y="0" width="348" height="464" frameX="-431" frameY="-232" frameWidth="1280" frameHeight="720" />
+<SubTexture name="dildo idle0005" x="747" y="0" width="348" height="464" frameX="-431" frameY="-232" frameWidth="1280" frameHeight="720" />
+<SubTexture name="dildo up0000" x="0" y="0" width="339" height="554" frameX="-448" frameY="-150" frameWidth="1280" frameHeight="720" />
+<SubTexture name="dildo up0001" x="339" y="0" width="408" height="540" frameX="-391" frameY="-165" frameWidth="1280" frameHeight="720" />
+<SubTexture name="dildo down0000" x="879" y="1017" width="458" height="360" frameX="-422" frameY="-355" frameWidth="1280" frameHeight="720" />
+<SubTexture name="dildo down0001" x="1337" y="1017" width="432" height="358" frameX="-431" frameY="-350" frameWidth="1280" frameHeight="720" />
+<SubTexture name="dildo right0000" x="0" y="1017" width="475" height="406" frameX="-474" frameY="-303" frameWidth="1280" frameHeight="720" />
+<SubTexture name="dildo right0001" x="1423" y="0" width="460" height="422" frameX="-463" frameY="-284" frameWidth="1280" frameHeight="720" />
+<SubTexture name="dildo left0000" x="388" y="554" width="400" height="456" frameX="-347" frameY="-240" frameWidth="1280" frameHeight="720" />
+<SubTexture name="dildo left0001" x="0" y="554" width="388" height="463" frameX="-371" frameY="-234" frameWidth="1280" frameHeight="720" />
+</TextureAtlas>
