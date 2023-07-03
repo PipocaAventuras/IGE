@@ -82,11 +82,12 @@ class CreditsState extends MusicBeatState
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 		    ['Internet Golden Era Team'],
 			['Perk',		      'perk',			 'Main Director and Artist',							                'https://www.youtube.com/channel/UCspnds7jXHeKGcSvqJzM3rw',	'FFF092'],
-			['Taw',			      'taw',		     'Director, Artist and Musician',					                    'https://twitter.com/yellbiebowwe',	                        'F5C47F'],
+			['Taw',			      'taw',		     'Director, Artist and Musician',					                    'https://twitter.com/yellbiebowwe',	                        '0E8F3E'],
 		    ['RubberScrub',       'rubberscrub',	 'Director and Artist',						                            'https://twitter.com/RubberScrub',                          'FFD980'],
 			['Mortimer',          'mortimer',		 'Co-Director, Main coder and chart',						            'https://twitter.com/PipocaAventuras',                      'FFFFFF'],
+			['iZombeh',           'izombeh',         'Co-Director, Artist and Bamepic_360 Creator',						    'https://twitter.com/ravingzombehs',		                '02EC31'],
 			['GB',		          'gb',		    	 'Artist and Charter',		                                            'https://twitter.com/estevs66',	                            '00FAFF'],
-		    ['Sunik',		      'sunik',			 'Musician and Artist',		        		        		            'https://www.youtube.com/channel/UC7oedG-wtZdc7UjJz5jN3HA', 'FFD479'],
+		    ['Sunik',		      'sunik',			 'Musician, Artist and Coder',		        		        		    'https://www.youtube.com/channel/UC7oedG-wtZdc7UjJz5jN3HA', '457E68'],
 			['D-Plushies',		  'dplushies',		 'Musician',					                                        'https://www.youtube.com/channel/UCaepRvzX1QteCjYmYV_pYRg',	'0038A8'],
 			['G-Corp Mania',	  'gcorpmania',		 'Musician',				    	                                    'https://www.youtube.com/channel/UCTD3S9rT7n0a0atlFhcuKDQ', '6A8EAF'],
 			['HQC',		          'hqc',	         'Musician',					                                        'https://twitter.com/hqcs_',	                            '05FFEE'],
@@ -94,13 +95,15 @@ class CreditsState extends MusicBeatState
             ['Synthetic',         'synthetic',       'Charter',					                                            'https://twitter.com/SynthetiC4P',	                        'BF00FF'],
 			['Samfr',             'samfr',           '3D Artist',					                                        'https://www.youtube.com/channel/UCSn3D4__GULyr0T6wZaYOLg', '2965A9'],
 			['PurplyBoi738',      'purplyboi738',    '3D Artist',					                                        'https://twitter.com/PurplyBoi738',	                        '914B9C'],
-			['Smori3000',         'smori3000',       '3D Artist',					                                        'https://gamebanana.com/members/2083170',                   'FF4141'],
+			['Smori3000',         'smori3000',       '3D Artist and Composer',					                            'https://gamebanana.com/members/2083170',                   'FF4141'],
 			['Z4sperJX',          'z4sperjx',        '3D Artist',					                                        'https://gamebanana.com/members/2432047',	                'FF0065'],
 			['ANT',               'ant',             'Musician',					                                        'https://www.youtube.com/channel/UCWhqFJwGeiMePI1Tgl2n1qQ',	'FF4860'],
 			['Johnatan o animado','john',		     'Artist',							                                    'https://www.youtube.com/channel/UC18MTVMygNjI2mJ2yRCDXAg',	'6FA4FE'],
 			['KnightGuy12',		  'knightguy12',     'Artist',						                                        'https://www.youtube.com/channel/UC7cmnT3z-yPnMob49NrVPCA',	'FFFFFF'],
 			['MTHD',		      'mthd',            'Contributor',						                                    'https://www.youtube.com/@MTHD2022',	                    'FFFFFF'],
-			['Expunation',		  'expunation',		 'Contributor',						                                    'twitter.com/YourClosetDemon',		                        'A7D1F3']
+			['HeadshotSniper',    'headshotsniper',  'Coder',						                                        'https://www.youtube.com/@headshotsniper42069',		        '007417'],
+		    ['Ruby',              'ruby',            'Coder',						                                        'https://twitter.com/ruby151106',		                    'FF6600'],
+		    ['Xp1n',              'xp1n',            'Artist',						                                        'https://www.tiktok.com/@xp1nofficial',		                'FF9999'],
 		];
 		
 		for(i in pisspoop){

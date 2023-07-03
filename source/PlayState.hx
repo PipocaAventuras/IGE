@@ -188,7 +188,7 @@ class PlayState extends MusicBeatState
 	var dialogue:Array<String> = ['blah blah blah', 'coolswag'];
 	var dialogueJson:DialogueFile = null;
 
-	var bgt:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('troller_background'));
+	var bgt:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('background/troller'));
 
 	var upperBoppers:BGSprite;
 	var bottomBoppers:BGSprite;
@@ -417,29 +417,32 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
-
 			case 'awesomedup': //Awesomed Up
-				var bg:BGSprite = new BGSprite('awesomedup_background', -600, -200, 0.9, 0.9);
+				var bg:BGSprite = new BGSprite('backgrounds/awesomedup', -600, -200, 0.9, 0.9);
 				add(bg);
 
-				bgt.loadGraphic(Paths.image('troller_background'));
+				bgt.loadGraphic(Paths.image('backgrounds/troller'));
 				bgt.antialiasing = true;
 				bgt.scrollFactor.set(0.9, 0.9);
 				bgt.active = true;
 				bgt.visible = false;
 				add(bgt);
 			case 'hide': //Hide
-				var bg:BGSprite = new BGSprite('hide_background', -600, -200, 0.9, 0.9);
+				var bg:BGSprite = new BGSprite('backgrounds/hide', -600, -200, 0.9, 0.9);
 				add(bg);
 			case 'sprinkletastic': //Sprinkletastic
-				var bg:BGSprite = new BGSprite('sprinkletastic_background', -600, -200, 0.9, 0.9);
+				var bg:BGSprite = new BGSprite('backgrounds/sprinkletastic', -600, -200, 0.9, 0.9);
 				add(bg);
 			case 'mamaweegee': //Mama Weegee
-				var bg:BGSprite = new BGSprite('mamaweegee_background', -600, -200, 0.9, 0.9);
+				var bg:BGSprite = new BGSprite('backgrounds/mamaweegee', -600, -200, 0.9, 0.9);
 				bg.setGraphicSize(Std.int(bg.width * 1.7));
 				add(bg);
 			case 'unexpected': //Unexpected
-				var bg:BGSprite = new BGSprite('unexpected_background', -600, -200, 0.9, 0.9);
+				var bg:BGSprite = new BGSprite('backgrounds/unexpected', -600, -200, 0.9, 0.9);
+				add(bg);
+			case 'survivalist': //Survivalist
+				var bg:BGSprite = new BGSprite('backgrounds/survivalist', -600, -200, 0.9, 0.9);
+				bg.setGraphicSize(Std.int(bg.width * 1.4));
 				add(bg);
 		}
 
@@ -1865,7 +1868,7 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
-		lime.app.Application.current.window.title = 'Internet\'s Golden Era | Score: ' + songScore + ' | Misses: ' + songMisses + ' | Accuracy: ' + FlxStringUtil.formatMoney(ratingPercent * 100) + "%";
+		lime.app.Application.current.window.title = 'Internet\'s Golden Era | Total: ' + songScore + ' | Misses: ' + songMisses + ' | Accuracy: ' + '' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%' + ' (' + ratingFC + ')';
 
 		switch (SONG.song.toLowerCase())
 	{

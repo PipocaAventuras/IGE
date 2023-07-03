@@ -1,11 +1,12 @@
 {
 	"songs": [
 		["Awesomed Up", "bambawezome", [255, 203, 0]],
-		["Hide", "bamepic360", [138, 255, 125]],
+		["Hide", "bamepic360", [161, 255, 141]],
 		["Sprinkletastic", "cakemonsta", [255, 255, 255]],
-		["Mama Weegee", "weegee", [76, 126, 102]],
+		["Mama Weegee", "weegee", [98, 155, 128]],
 		["Unexpected", "davethekiller", [255, 255, 255]],
-		["MLG", "iluminatisarecool123", [253, 73, 4]]
+		["MLG", "iluminatisarecool123", [253, 73, 4]],
+		["Survivalist", "ufofannumber1", [129, 3, 255]]
 	],
 
 	"weekCharacters": [
@@ -16,10 +17,10 @@
 	"weekBackground": "stage",
 
 	"storyName": "",
-	"weekBefore": "tutorial",
-	"weekName": "Tutorial",
+	"weekBefore": "",
+	"weekName": "",
 	"startUnlocked": true,
-        "difficulties": "Normal",
+    "difficulties": "Normal",
 	"hideStoryMode": true,
 	"hideFreeplay": false
 }
