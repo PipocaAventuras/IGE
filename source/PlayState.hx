@@ -440,6 +440,9 @@ class PlayState extends MusicBeatState
 			case 'unexpected': //Unexpected
 				var bg:BGSprite = new BGSprite('backgrounds/unexpected', -600, -200, 0.9, 0.9);
 				add(bg);
+			case 'mlg': //MLG
+				var bg:BGSprite = new BGSprite('backgrounds/mlg', -600, -200, 0.9, 0.9);
+				add(bg);
 			case 'survivalist': //Survivalist
 				var bg:BGSprite = new BGSprite('backgrounds/survivalist', -600, -200, 0.9, 0.9);
 				bg.setGraphicSize(Std.int(bg.width * 1.4));
@@ -897,7 +900,7 @@ class PlayState extends MusicBeatState
 
 		if (PauseSubState.songName != null) {
 			CoolUtil.precacheMusic(PauseSubState.songName);
-		} else if(ClientPrefs.pauseMusic != 'None') {
+		} else if(ClientPrefs.pauseMusic != 'breakfast') {
 			CoolUtil.precacheMusic(Paths.formatToSongPath(ClientPrefs.pauseMusic));
 		}
 
@@ -1868,7 +1871,7 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
-		lime.app.Application.current.window.title = 'Internet\'s Golden Era | Total: ' + songScore + ' | Misses: ' + songMisses + ' | Accuracy: ' + '' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%' + ' (' + ratingFC + ')';
+		lime.app.Application.current.window.title = 'Internet\'s Golden Era | Total: ' + songScore + ' | Misses: ' + songMisses + ' | Accuracy: ' + '' + Highscore.floorDecimal(ratingPercent * 100, 2) + '% ' + ratingFC;
 
 		switch (SONG.song.toLowerCase())
 	{

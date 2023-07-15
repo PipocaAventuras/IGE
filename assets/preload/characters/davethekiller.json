@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 12,
-			"name": "idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				2,
 				0
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 12,
-			"name": "left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-69,
 				-10
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 12,
-			"name": "down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				15,
 				0
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 12,
-			"name": "up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				1,
 				-3
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 12,
-			"name": "right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
 		}
 	],
 	"no_antialiasing": true,
@@ -65,9 +65,9 @@
 	"healthicon": "davethekiller",
 	"flip_x": false,
 	"healthbar_colors": [
-		255,
-		255,
-		255
+		75,
+		50,
+		62
 	],
 	"camera_position": [
 		-100,
