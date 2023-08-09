@@ -86,7 +86,7 @@ class CreditsState extends MusicBeatState
 		    ['RubberScrub',       'rubberscrub',	 'Director and Artist',						                            'https://twitter.com/RubberScrub',                          'FFD980'],
 			['Mortimer',          'mortimer',		 'Co-Director, Main coder and chart',						            'https://twitter.com/PipocaAventuras',                      'FFFFFF'],
 			['iZombeh',           'izombeh',         'Artist and Bamepic_360 Owner',						                'https://twitter.com/ravingzombehs',		                'FFF7DB'],
-			['GB',		          'gb',		    	 'Artist and Charter',		                                            'https://twitter.com/estevs66',	                            '00FAFF'],
+			['GB',		          'gb',		    	 'Artist and Charter',		                                            'https://twitter.com/estevs66',	                            '4AE1FF'],
 		    ['Sunik',		      'sunik',			 'Musician, Artist and Coder',		        		        		    'https://www.youtube.com/channel/UC7oedG-wtZdc7UjJz5jN3HA', '457E68'],
 			['D-Plushies',		  'dplushies',		 'Musician',					                                        'https://www.youtube.com/channel/UCaepRvzX1QteCjYmYV_pYRg',	'0038A8'],
 			['G-Corp Mania',	  'gcorpmania',		 'Musician',				    	                                    'https://www.youtube.com/channel/UCTD3S9rT7n0a0atlFhcuKDQ', '6A8EAF'],

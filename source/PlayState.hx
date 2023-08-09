@@ -447,6 +447,9 @@ class PlayState extends MusicBeatState
 				var bg:BGSprite = new BGSprite('backgrounds/survivalist', -600, -200, 0.9, 0.9);
 				bg.setGraphicSize(Std.int(bg.width * 1.4));
 				add(bg);
+			case 'jumbojoshrush': //Jumbo Josh Rush
+				var bg:BGSprite = new BGSprite('backgrounds/jumbojoshrush', -600, -200, 0.9, 0.9);
+				add(bg);	
 		}
 
 		if(isPixelStage) {

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Wiztry.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Idle0000" x="0" y="936" width="435" height="458" frameX="-95" frameY="-69" frameWidth="606" frameHeight="674"/>
+	<SubTexture name="Down0000" x="992" y="0" width="460" height="466" frameX="-67" frameY="-67" frameWidth="606" frameHeight="674"/>
+	<SubTexture name="Down0001" x="992" y="466" width="446" height="467" frameX="-69" frameY="-69" frameWidth="606" frameHeight="674"/>
+	<SubTexture name="Left0000" x="1452" y="465" width="416" height="468" frameX="-96" frameY="-67" frameWidth="606" frameHeight="674"/>
+	<SubTexture name="Left0001" x="1452" y="0" width="422" height="465" frameX="-103" frameY="-67" frameWidth="606" frameHeight="674"/>
+	<SubTexture name="Up0000" x="509" y="0" width="483" height="472" frameX="-90" frameY="-82" frameWidth="606" frameHeight="674"/>
+	<SubTexture name="Up0001" x="509" y="472" width="479" height="464" frameX="-90" frameY="-79" frameWidth="606" frameHeight="674"/>
+	<SubTexture name="Right0000" x="0" y="0" width="509" height="467" frameX="-89" frameY="-76" frameWidth="606" frameHeight="674"/>
+	<SubTexture name="Right0001" x="0" y="467" width="493" height="469" frameX="-95" frameY="-70" frameWidth="606" frameHeight="674"/>
+</TextureAtlas>

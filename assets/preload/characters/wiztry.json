@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				-17,
+				-10
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				35,
+				30
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-49,
+				-3
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				10
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/wiztry",
+	"position": [
+		-100,
+		90
+	],
+	"healthicon": "wiztry",
+	"flip_x": false,
+	"healthbar_colors": [
+		84,
+		61,
+		103
+	],
+	"camera_position": [
+		-90,
+		-240
+	],
+	"sing_duration": 6.1,
+	"scale": 1.7
+}
