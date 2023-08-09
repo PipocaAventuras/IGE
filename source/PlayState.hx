@@ -427,9 +427,6 @@ class PlayState extends MusicBeatState
 				bgt.active = true;
 				bgt.visible = false;
 				add(bgt);
-			case 'hide': //Hide
-				var bg:BGSprite = new BGSprite('backgrounds/hide', -600, -200, 0.9, 0.9);
-				add(bg);
 			case 'sprinkletastic': //Sprinkletastic
 				var bg:BGSprite = new BGSprite('backgrounds/sprinkletastic', -600, -200, 0.9, 0.9);
 				add(bg);
@@ -440,16 +437,10 @@ class PlayState extends MusicBeatState
 			case 'unexpected': //Unexpected
 				var bg:BGSprite = new BGSprite('backgrounds/unexpected', -600, -200, 0.9, 0.9);
 				add(bg);
-			case 'mlg': //MLG
-				var bg:BGSprite = new BGSprite('backgrounds/mlg', -600, -200, 0.9, 0.9);
-				add(bg);
 			case 'survivalist': //Survivalist
 				var bg:BGSprite = new BGSprite('backgrounds/survivalist', -600, -200, 0.9, 0.9);
 				bg.setGraphicSize(Std.int(bg.width * 1.4));
 				add(bg);
-			case 'jumbojoshrush': //Jumbo Josh Rush
-				var bg:BGSprite = new BGSprite('backgrounds/jumbojoshrush', -600, -200, 0.9, 0.9);
-				add(bg);	
 		}
 
 		if(isPixelStage) {
