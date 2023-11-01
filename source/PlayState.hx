@@ -441,6 +441,9 @@ class PlayState extends MusicBeatState
 				var bg:BGSprite = new BGSprite('backgrounds/survivalist', -600, -200, 0.9, 0.9);
 				bg.setGraphicSize(Std.int(bg.width * 1.4));
 				add(bg);
+		    case 'spookycheers': //Spooky Cheers
+				var bg:BGSprite = new BGSprite('backgrounds/spookycheers', -600, -200, 0.9, 0.9);
+				add(bg);
 		}
 
 		if(isPixelStage) {
@@ -1915,6 +1918,26 @@ class PlayState extends MusicBeatState
 						});
 				case 2496:
 					bgt.visible = true;
+			}
+		case 'unexpected':
+			switch (curStep)
+			{
+		        case 640 | 864 | 1136 | 1408:
+			    	defaultCamZoom = 0.8;
+			    case 768 | 1536:
+			    	defaultCamZoom = 0.75;
+				case 896 | 1152 | 1664:
+			    	defaultCamZoom = 0.7;
+			}
+		case 'sprinkletastic':
+		switch (curStep)
+			{
+		        case 528 | 560 | 592 | 624:
+			    	defaultCamZoom = 0.8;
+				case 532 | 564 | 596 | 628 | 720 | 784 | 1168:
+			    	defaultCamZoom = 0.7;
+				case 688 | 752 | 1040:
+			    	defaultCamZoom = 0.75;
 			}
 	    }
 

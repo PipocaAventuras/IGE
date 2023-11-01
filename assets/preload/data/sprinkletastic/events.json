@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 3.5,
+		"stage": "sprinkletastic",
+		"player1": "bf",
+		"player2": "cakemonsta",
+		"player3": null,
+		"events": [
+			[
+				100909.090909091,
+				[
+					[
+						"Black Screen",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 176,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "sprinkletastic"
+	}
+}

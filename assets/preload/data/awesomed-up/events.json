@@ -232,6 +232,16 @@
 				]
 			],
 			[
+				65828.5714285714,
+				[
+					[
+						"Change Character",
+						"1",
+						"dew"
+					]
+				]
+			],
+			[
 				76800,
 				[
 					[
@@ -733,6 +743,7 @@
 			]
 		],
 		"notes": [],
+		"splashSkin": null,
 		"validScore": false,
 		"gfVersion": "gf",
 		"bpm": 175,

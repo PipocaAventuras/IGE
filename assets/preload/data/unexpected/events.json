@@ -1,0 +1,94 @@
+{
+	"song": {
+		"speed": 3.1,
+		"stage": "unexpected",
+		"player1": "bf",
+		"player2": "davethekiller",
+		"player3": null,
+		"events": [
+			[
+				32000,
+				[
+					[
+						"dance",
+						"",
+						"2"
+					],
+					[
+						"Flash Camera",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				53333.3333333334,
+				[
+					[
+						"dance",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				74666.6666666667,
+				[
+					[
+						"Flash Camera",
+						"1",
+						""
+					],
+					[
+						"dance",
+						"",
+						"2"
+					]
+				]
+			],
+			[
+				94666.6666666666,
+				[
+					[
+						"dance",
+						"",
+						"0"
+					]
+				]
+			],
+			[
+				95999.9999999999,
+				[
+					[
+						"Flash Camera",
+						"1",
+						""
+					],
+					[
+						"dance",
+						"",
+						"2"
+					]
+				]
+			],
+			[
+				117333.333333333,
+				[
+					[
+						"dance",
+						"",
+						"0"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 180,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Unexpected"
+	}
+}
