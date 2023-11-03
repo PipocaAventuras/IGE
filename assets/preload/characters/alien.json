@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 20,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				106,
+				-14
+			],
+			"anim": "singLEFT",
+			"fps": 20,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-32,
+				-49
+			],
+			"anim": "singDOWN",
+			"fps": 20,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				83,
+				94
+			],
+			"anim": "singUP",
+			"fps": 20,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-41,
+				14
+			],
+			"anim": "singRIGHT",
+			"fps": 20,
+			"name": "right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/alien",
+	"position": [
+		-50,
+		85
+	],
+	"healthicon": "alien",
+	"flip_x": false,
+	"healthbar_colors": [
+		85,
+		255,
+		0
+	],
+	"camera_position": [
+		90,
+		-60
+	],
+	"sing_duration": 4.8,
+	"scale": 1.3
+}

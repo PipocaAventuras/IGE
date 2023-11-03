@@ -1919,6 +1919,43 @@ class PlayState extends MusicBeatState
 				case 2496:
 					bgt.visible = true;
 			}
+		case 'sprinkletastic':
+		    switch (curStep)
+			{
+		        case 528 | 560 | 592 | 624:
+			    	defaultCamZoom = 0.8;
+				case 532 | 564 | 596 | 628 | 720 | 784 | 1168:
+			    	defaultCamZoom = 0.7;
+				case 688 | 752 | 1040:
+			    	defaultCamZoom = 0.75;
+			}
+		case 'mama weegee':
+		    switch (curStep)
+			{
+		        case 112:
+				    var curZoom = defaultCamZoom;
+						var time = (Conductor.stepCrochet / 1000) * 16;
+						FlxG.camera.fade(FlxColor.WHITE, time, false, function()
+						{
+							FlxG.camera.fade(FlxColor.WHITE, 0, true, function()
+							{
+								FlxG.camera.flash(FlxColor.WHITE, 0.5);
+							});
+						});
+						FlxTween.num(curZoom, curZoom + 0.2, time, {onComplete: function(tween:FlxTween)
+						{
+							defaultCamZoom = 0.7;
+						}}, function(newValue:Float)
+						{
+							defaultCamZoom = newValue;
+						});
+				case 256 | 528 | 560 | 592 | 632 | 896:
+				    defaultCamZoom = 0.8;
+				case 384 | 544 | 576 | 608 | 640:
+				    defaultCamZoom = 0.7;
+				case 572:
+				    defaultCamZoom = 0.85;
+			}
 		case 'unexpected':
 			switch (curStep)
 			{
@@ -1929,15 +1966,46 @@ class PlayState extends MusicBeatState
 				case 896 | 1152 | 1664:
 			    	defaultCamZoom = 0.7;
 			}
-		case 'sprinkletastic':
-		switch (curStep)
+		case 'survivalist':
+		    switch (curStep)
 			{
-		        case 528 | 560 | 592 | 624:
+		        case 128 | 640 | 800 | 1208 | 1472 | 2240:
 			    	defaultCamZoom = 0.8;
-				case 532 | 564 | 596 | 628 | 720 | 784 | 1168:
+				case 160 | 672 | 808 | 1216 | 1728 | 2496:
 			    	defaultCamZoom = 0.7;
-				case 688 | 752 | 1040:
-			    	defaultCamZoom = 0.75;
+				case 1984:
+				    defaultCamZoom = 0.75;
+			}
+		case 'spooky cheers':
+		    switch (curStep)
+			{
+		        case 248 | 1144 | 1400 | 1904 | 2300 | 2556 | 2816 | 3200 | 3760 | 5040 | 5808:
+				    defaultCamZoom = 0.8;
+				case 256 | 1152 | 1408 | 1920 | 2304 | 2560 | 3072 | 3328 | 4016 | 4592 | 4728 | 4848 | 4976 | 5296 | 6064:
+				    defaultCamZoom = 0.7;
+				case 756 | 2164 | 3444:
+				    var curZoom = defaultCamZoom;
+						var time = (Conductor.stepCrochet / 1000) * 12;
+						FlxG.camera.fade(FlxColor.BLACK, time, false, function()
+						{
+							FlxG.camera.fade(FlxColor.BLACK, 0, true, function()
+							{
+								FlxG.camera.flash(FlxColor.BLACK, 0.5);
+							});
+						});
+						FlxTween.num(curZoom, curZoom + 0.2, time, {onComplete: function(tween:FlxTween)
+						{
+							defaultCamZoom = 0.7;
+						}}, function(newValue:Float)
+						{
+							defaultCamZoom = newValue;
+						});
+				case 768:
+				    FlxG.camera.flash(FlxColor.BLACK, 10);
+				case 3068:
+				    defaultCamZoom = 0.85;
+				case 4560 | 4688 | 4816 | 4944:
+				    defaultCamZoom = 0.75;
 			}
 	    }
 
@@ -1945,7 +2013,7 @@ class PlayState extends MusicBeatState
 
 		switch (curStage)
 		{
-			case 'unexpected': // Dark character thing
+			case 'unexpected' | 'spookycheers': // Dark character thing
                 {
                     dad.color = 0xFF878787;
                     boyfriend.color = 0xFF878787;
@@ -2697,6 +2765,12 @@ class PlayState extends MusicBeatState
 
 		deathCounter = 0;
 		seenCutscene = false;
+
+		if (SONG.song.toLowerCase() == "sprinkletastic")
+		{
+			FlxG.save.data.weegee = true;
+			FlxG.save.flush();
+		}
 
 		#if ACHIEVEMENTS_ALLOWED
 		if(achievementObj != null) {
