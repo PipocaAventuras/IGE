@@ -1981,7 +1981,7 @@ class PlayState extends MusicBeatState
 			{
 		        case 248 | 1144 | 1400 | 1904 | 2300 | 2556 | 2816 | 3200 | 3760 | 5040 | 5808:
 				    defaultCamZoom = 0.8;
-				case 256 | 1152 | 1408 | 1920 | 2304 | 2560 | 3072 | 3328 | 4016 | 4592 | 4728 | 4848 | 4976 | 5296 | 6064:
+				case 256 | 1152 | 1408 | 1920 | 2304 | 2560 | 3072 | 3328 | 4016 | 4592 | 4720 | 4848 | 4976 | 5296 | 6064:
 				    defaultCamZoom = 0.7;
 				case 756 | 2164 | 3444:
 				    var curZoom = defaultCamZoom;
@@ -2765,13 +2765,7 @@ class PlayState extends MusicBeatState
 
 		deathCounter = 0;
 		seenCutscene = false;
-
-		if (SONG.song.toLowerCase() == "sprinkletastic")
-		{
-			FlxG.save.data.weegee = true;
-			FlxG.save.flush();
-		}
-
+		
 		#if ACHIEVEMENTS_ALLOWED
 		if(achievementObj != null) {
 			return;

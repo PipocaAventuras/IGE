@@ -101,6 +101,7 @@ class CreditsState extends MusicBeatState
             ['Xeno',              'xeno',            '3D Artist and Animator',						                        'https://www.youtube.com/channel/UCg72scHADGQ1RnQIHfrVMbw',	'080D17'],
 		    ['Luan',              'luan',            'Artist',						                                        'https://twitter.com/russextreme',		                    '00FFA8'],
 			['GregQuisha',        'gregquisha',      'Composer',						                                    'https://steamcommunity.com/id/GregQuisha/',		        '243D16'],	
+			['Omega',             'omega',           'Composer',						                                    'https://www.youtube.com/channel/UC6ycjmhEqJB6MUQ9rLmIBqw',	'A6E9FF'],	
 		];
 		
 		for(i in pisspoop){

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-14,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				20,
+				-4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-4,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-7,
+				-13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-201,
+				-37
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/rotten-cake-monsta",
+	"position": [
+		-40,
+		85
+	],
+	"healthicon": "rottencakemonsta",
+	"flip_x": false,
+	"healthbar_colors": [
+		61,
+		166,
+		1
+	],
+	"camera_position": [
+		-220,
+		-280
+	],
+	"sing_duration": 4.8,
+	"scale": 2.3
+}
