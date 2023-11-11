@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				-1
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "dogelover123 down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				3,
+				-1
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "dogelover123 right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-22,
+				1
+			],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "dogelover123 up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-19,
+				-1
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "dogelover123 left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 12,
+			"name": "dogelover123 idle",
+			"indices": [
+				9,
+				8,
+				7,
+				6,
+				5,
+				4,
+				3,
+				2,
+				1,
+				0
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/timothycodgamer42",
+	"position": [
+		-110,
+		-40
+	],
+	"healthicon": "iluminatisarecool123",
+	"flip_x": false,
+	"healthbar_colors": [
+		253,
+		73,
+		4
+	],
+	"camera_position": [
+		-30,
+		-100
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}
