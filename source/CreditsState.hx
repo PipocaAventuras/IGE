@@ -83,8 +83,8 @@ class CreditsState extends MusicBeatState
 		    ['Internet Golden Era Team'],
 			['Perk',		      'perk',			 'Main Director and Artist',							                'https://www.youtube.com/channel/UCspnds7jXHeKGcSvqJzM3rw',	'E02341'],
 			['Ben',               'ben',		     'Director, Artist, Main Coder and chart',						        'https://twitter.com/PipocaAventuras',                      '4494E6'],
-			['Taw',			      'taw',		     'Artist and Musician',					                                'https://twitter.com/tawklz',	                            '0E8F3E'],
-		    ['Caramilaz',         'izombeh',	     'Artist',						                                        'https://twitter.com/RubberScrub',                          'FFF7DB'],
+			['Taw',			      'taw',		     'Artist and Musician',					                                'https://youtube.com/@tawklz',	                            '0E8F3E'],
+		    ['Caramilaz',         'izombeh',	     'Artist',						                                        'https://twitter.com/Caramilaz',                            'FFECA7'],
 		    ['Mosto',		      'sunik',			 'Musician, Artist and Coder',		        		        		    'https://www.youtube.com/channel/UC7oedG-wtZdc7UjJz5jN3HA', '457E68'],
 			['D-Plushies',		  'dplushies',		 'Musician',					                                        'https://www.youtube.com/channel/UCaepRvzX1QteCjYmYV_pYRg',	'0038A8'],
 			['G-Corp Mania',	  'gcorpmania',		 'Musician',				    	                                    'https://www.youtube.com/channel/UCTD3S9rT7n0a0atlFhcuKDQ', '6A8EAF'],
@@ -102,6 +102,7 @@ class CreditsState extends MusicBeatState
 		    ['Luan',              'luan',            'Artist',						                                        'https://twitter.com/russextreme',		                    '00FFA8'],
 			['GregQuisha',        'gregquisha',      'Composer',						                                    'https://steamcommunity.com/id/GregQuisha/',		        '243D16'],	
 			['Omega',             'omega',           'Composer',						                                    'https://www.youtube.com/channel/UC6ycjmhEqJB6MUQ9rLmIBqw',	'A6E9FF'],	
+            ['Omega',             'biker',           'Contributor',						                                    'https://www.youtube.com/channel/UCLsyVf0mA5lC1y1xykt_ugw',	'FFD100'],	
 		];
 		
 		for(i in pisspoop){

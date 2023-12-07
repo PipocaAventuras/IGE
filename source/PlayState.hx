@@ -195,6 +195,8 @@ class PlayState extends MusicBeatState
 	var santa:BGSprite;
 	var heyTimer:Float;
 
+	var foregroundSprites:FlxTypedGroup<BGSprite>;
+
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	var bgGhouls:BGSprite;
 
@@ -311,6 +313,8 @@ class PlayState extends MusicBeatState
 
 		Conductor.mapBPMChanges(SONG);
 		Conductor.changeBPM(SONG.bpm);
+
+		foregroundSprites = new FlxTypedGroup<BGSprite>();
 
 		#if desktop
 		storyDifficultyText = CoolUtil.difficulties[storyDifficulty];
@@ -430,6 +434,14 @@ class PlayState extends MusicBeatState
 			case 'hide': //Hide
 				var bg:BGSprite = new BGSprite('backgrounds/hide', -600, -200, 0.9, 0.9);
 				add(bg);
+			case 'iphone': //IPhone
+				var layer:BGSprite = new BGSprite('backgrounds/iphone/layer', 0, 0, 0.9, 0.9);
+				layer.setGraphicSize(Std.int(layer.width * 2.5));
+				add(layer);
+
+				var bg:BGSprite = new BGSprite('backgrounds/iphone/bg', 0, 0.9, 0.9);
+				bg.setGraphicSize(Std.int(bg.width * 2.75));
+				foregroundSprites.add(bg);
 			case 'sprinkletastic': //Sprinkletastic
 				var bg:BGSprite = new BGSprite('backgrounds/sprinkletastic', -600, -200, 0.9, 0.9);
 				add(bg);
@@ -452,6 +464,10 @@ class PlayState extends MusicBeatState
 				add(bg);
 		    case 'spookycheers': //Spooky Cheers
 				var bg:BGSprite = new BGSprite('backgrounds/spookycheers', -600, -200, 0.9, 0.9);
+				add(bg);
+			case 'foldered': //Foldered
+				var bg:BGSprite = new BGSprite('backgrounds/foldered', -600, -200, 0.9, 0.9);
+				bg.setGraphicSize(Std.int(bg.width * 2));
 				add(bg);
 		}
 
@@ -546,6 +562,8 @@ class PlayState extends MusicBeatState
 		startCharacterPos(boyfriend);
 		boyfriendGroup.add(boyfriend);
 		startCharacterLua(boyfriend.curCharacter);
+
+		add(foregroundSprites);
 		
 		var camPos:FlxPoint = new FlxPoint(girlfriendCameraOffset[0], girlfriendCameraOffset[1]);
 		if(gf != null)

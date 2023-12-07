@@ -1,13 +1,14 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				6,
 				-9
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "danceLeft",
+			"fps": 24,
+			"name": "GF Dancing Beat",
 			"indices": [
 				30,
 				0,
@@ -25,17 +26,17 @@
 				12,
 				13,
 				14
-			],
-			"name": "GF Dancing Beat"
+			]
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				-9
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "danceRight",
+			"fps": 24,
+			"name": "GF Dancing Beat",
 			"indices": [
 				15,
 				16,
@@ -52,8 +53,7 @@
 				27,
 				28,
 				29
-			],
-			"name": "GF Dancing Beat"
+			]
 		}
 	],
 	"no_antialiasing": true,
@@ -62,12 +62,12 @@
 		0,
 		0
 	],
-	"healthicon": "speaker",
+	"healthicon": "nothing",
 	"flip_x": false,
 	"healthbar_colors": [
-		220,
-		175,
-		235
+		255,
+		255,
+		255
 	],
 	"camera_position": [
 		550,
