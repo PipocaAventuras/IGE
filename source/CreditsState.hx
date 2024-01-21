@@ -80,10 +80,10 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-		    ['Internet Golden Era Team'],
-			['Perk',		      'perk',			 'Main Director and Artist',							                'https://www.youtube.com/channel/UCspnds7jXHeKGcSvqJzM3rw',	'E02341'],
+		    ['Developers'],
+			['Perk',		      'perk',			 'Main Director and Artist',							                'https://www.youtube.com/channel/UCspnds7jXHeKGcSvqJzM3rw',	'3E3E3E'],
 			['Ben',               'ben',		     'Director, Artist, Main Coder and chart',						        'https://twitter.com/PipocaAventuras',                      '4494E6'],
-			['Taw',			      'taw',		     'Artist and Musician',					                                'https://youtube.com/@tawklz',	                            '0E8F3E'],
+			['Taw',			      'taw',		     'Artist and Musician',					                                'https://twitter.com/tawsklly4',	                        '3E8168'],
 		    ['Caramilaz',         'izombeh',	     'Artist',						                                        'https://twitter.com/Caramilaz',                            'FFECA7'],
 		    ['Mosto',		      'sunik',			 'Musician, Artist and Coder',		        		        		    'https://www.youtube.com/channel/UC7oedG-wtZdc7UjJz5jN3HA', '457E68'],
 			['D-Plushies',		  'dplushies',		 'Musician',					                                        'https://www.youtube.com/channel/UCaepRvzX1QteCjYmYV_pYRg',	'0038A8'],
