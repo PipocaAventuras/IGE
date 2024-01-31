@@ -2028,12 +2028,24 @@ class PlayState extends MusicBeatState
 							defaultCamZoom = newValue;
 						});
 				case 768:
-				    FlxG.camera.flash(FlxColor.BLACK, 10);
+				    FlxG.camera.flash(FlxColor.BLACK, 5);
 				case 3068:
 				    defaultCamZoom = 0.85;
 				case 4560 | 4688 | 4816 | 4944:
 				    defaultCamZoom = 0.75;
 			}
+		case 'foldered':
+		    switch (curStep)
+			{
+				case 0:
+					camGame.flash(FlxColor.BLACK, 10);
+				case 80 | 224 | 480 | 1248:
+				    defaultCamZoom = 0.7;
+				case 96 | 352 | 608 | 992 | 1504:
+				    defaultCamZoom = 0.6;
+				case 864 | 1376 | 1632:
+				    defaultCamZoom = 0.65;
+		    }
 	    }
 
 		callOnLuas('onUpdate', [elapsed]);

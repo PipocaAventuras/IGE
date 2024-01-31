@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Wombi.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Idle0000" x="1100" y="0" width="243" height="436" frameX="-132" frameY="-39" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Left0000" x="1100" y="436" width="242" height="434" frameX="-131" frameY="-32" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Left0001" x="240" y="421" width="248" height="439" frameX="-123" frameY="-30" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Up0000" x="861" y="0" width="239" height="446" frameX="-131" frameY="-31" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Up0001" x="0" y="421" width="240" height="455" frameX="-130" frameY="-26" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Right0000" x="297" y="0" width="288" height="415" frameX="-155" frameY="-47" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Right0001" x="0" y="0" width="297" height="421" frameX="-148" frameY="-43" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Down0000" x="488" y="421" width="275" height="390" frameX="-98" frameY="-48" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="Down0001" x="585" y="0" width="276" height="399" frameX="-97" frameY="-48" frameWidth="500" frameHeight="500"/>
+</TextureAtlas>
