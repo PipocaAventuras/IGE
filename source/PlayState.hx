@@ -2038,7 +2038,7 @@ class PlayState extends MusicBeatState
 		    switch (curStep)
 			{
 				case 0:
-					camGame.flash(FlxColor.BLACK, 10);
+					FlxG.camera.flash(FlxColor.BLACK, 10);
 				case 80 | 224 | 480 | 1248:
 				    defaultCamZoom = 0.7;
 				case 96 | 352 | 608 | 992 | 1504:
