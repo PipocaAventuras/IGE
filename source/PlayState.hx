@@ -2055,6 +2055,7 @@ class PlayState extends MusicBeatState
 			case 'unexpected' | 'spookycheers': // Dark character thing
                 {
                     dad.color = 0xFF878787;
+					gf.color = 0xFF878787;
                     boyfriend.color = 0xFF878787;
                 }
 		}
@@ -3379,7 +3380,6 @@ class PlayState extends MusicBeatState
 		{
 			if (songMisses % 5 == 0 && haveSeenScreamer == true)
 			{
-
 				scarypoopoo();
 			}
 
