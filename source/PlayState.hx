@@ -1986,12 +1986,14 @@ class PlayState extends MusicBeatState
 		case 'unexpected':
 			switch (curStep)
 			{
-		        case 640 | 864 | 1136 | 1408:
+		        case 524 | 1420:
 			    	defaultCamZoom = 0.8;
-			    case 768 | 1536:
-			    	defaultCamZoom = 0.75;
-				case 896 | 1152 | 1664:
+				case 908:
+				    defaultCamZoom = 0.9;
+				case 1036 | 1428 | 1804:
 			    	defaultCamZoom = 0.7;
+				case 1548:
+				    defaultCamZoom = 0.75;
 			}
 		case 'survivalist':
 		    switch (curStep)
@@ -3072,7 +3074,10 @@ class PlayState extends MusicBeatState
 		comboSpr.visible = (!ClientPrefs.hideHud && showCombo);
 		comboSpr.x += ClientPrefs.comboOffset[0];
 		comboSpr.y -= ClientPrefs.comboOffset[1];
-        add(comboSpr);
+        if (combo >= 10)
+		{
+			add(comboSpr);
+		}
 
 		comboSpr.velocity.x += FlxG.random.int(1, 10);
 		insert(members.indexOf(strumLineNotes), rating);
